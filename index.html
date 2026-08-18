@@ -1,41 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Keshav's personal site</title>
-    <link rel="stylesheet" 
-    href="style.css">
-</head> 
+
+    <title>Keshav | Personal Website</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
 
 <body>
 
-    <div class="intro">
-        <h1>Keshav's personal site</h1>
+    <header class="navbar">
+        <div class="logo">Keshav</div>
 
-        <h2>Welcome to my website</h2>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#interests">Interests</a>
+        </nav>
+    </header>
 
-        <p> 
-            Hi! I'm Keshav. I'm learning programming, web development, linux, and other 
-            interesting technologies.
+
+    <!-- HERO SECTION -->
+
+    <section id="home" class="hero">
+
+        <div class="hero-text">
+
+            <p class="small-title">WELCOME TO MY WEBSITE</p>
+
+            <h1>Hi, I'm <span>Keshav</span> 👋</h1>
+
+            <h2>I'm learning & building with technology.</h2>
+
+            <p>
+                I'm exploring programming, web development, Linux,
+                AI and cybersecurity. This website is where I share
+                what I'm learning and building.
+            </p>
+
+            <a href="#about" class="button">Explore My Website ↓</a>
+
+        </div>
+
+
+        <div class="hero-image">
+
+            <!-- Replace this image later with your own -->
+            <img
+                src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80"
+                alt="Technology">
+
+        </div>
+
+    </section>
+
+
+    <!-- ABOUT SECTION -->
+
+    <section id="about" class="section">
+
+        <p class="section-label">ABOUT ME</p>
+
+        <h2>A little about me</h2>
+
+        <p class="about-text">
+            I'm interested in technology and enjoy learning new things.
+            I'm currently exploring programming, web development,
+            Linux, AI and cybersecurity.
         </p>
-        <h2>About me</h2> 
-        <p>
-            I'm interested in technology and 
-            I'm currently learning programming, web development, linux, and 
-            cybersecurity.
-        </p>
-        
-        <h2>my interests</h2>
-        
-        <ul>
-            <li>programming</li>
-            <li>web development</li>
-            <li>linux</li>
-            <li>AI and Technology</li>
-        </ul>
 
-    </div>
+    </section>
+
+
+    <!-- INTERESTS -->
+
+    <section id="interests" class="section">
+
+        <p class="section-label">WHAT I LIKE</p>
+
+        <h2>My Interests</h2>
+
+
+        <div class="cards">
+
+            <div class="card">
+                <div class="icon">💻</div>
+                <h3>Programming</h3>
+                <p>
+                    Learning how to build useful programs and projects.
+                </p>
+            </div>
+
+
+            <div class="card">
+                <div class="icon">🌐</div>
+                <h3>Web Development</h3>
+                <p>
+                    Creating websites and learning modern web technologies.
+                </p>
+            </div>
+
+
+            <div class="card">
+                <div class="icon">🐧</div>
+                <h3>Linux</h3>
+                <p>
+                    Exploring Linux, terminals and open-source technology.
+                </p>
+            </div>
+
+
+            <div class="card">
+                <div class="icon">🤖</div>
+                <h3>AI & Technology</h3>
+                <p>
+                    Exploring artificial intelligence and new technologies.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+        <p>© 2026 Keshav. Built while learning 🚀</p>
+    </footer>
+
+
 </body>
 </html>
