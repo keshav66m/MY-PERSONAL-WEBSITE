@@ -56,14 +56,20 @@ nav a:hover {
 
 .hero {
     min-height: 90vh;
-
     padding: 80px 8%;
-
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 80px;
+}
 
-    gap: 60px;
+.hero-text {
+    width: 50%;
+    max-width: 600px;
+}
+
+.hero-image {
+    flex-shrink: 0;
 }
 
 .hero-text {
@@ -240,6 +246,11 @@ footer {
     .hero {
         flex-direction: column;
         text-align: center;
+        padding: 60px 5%;
+    }
+
+    .hero-text {
+        width: 100%;
     }
 
     .hero-image {
@@ -250,8 +261,8 @@ footer {
     .cards {
         grid-template-columns: repeat(2, 1fr);
     }
-
 }
+
 
 
 @media (max-width: 600px) {
